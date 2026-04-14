@@ -1,0 +1,7 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+BT1,BatteryHolder_Keystone_103_1x20mm,1,CR2030_Battery_Holder,
+C1,0805,1,100nF,
+D1,0805,1,150080RS75000,
+R1,0805,1,3k3,
+R2,0805,1,100k,
+U1,DIP-8_W7.62mm,1,ATtiny13A-P,
