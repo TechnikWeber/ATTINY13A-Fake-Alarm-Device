@@ -65,10 +65,9 @@ Im Repo liegen mehrere vorkompilierte `.hex`-Dateien:
 
 | Datei | Blitzdauer | Intervall |
 |---|---|---|
-| `fake_alarm.hex` | 1 ms | 3 s |
-| `fake_alarm_3ms.hex` | 3 ms | 3 s |
-| `fake_alarm_5ms.hex` | 5 ms | 3 s |
-| `fake_alarm_3ms_5s.hex` | 3 ms | 5 s |
+| `fake_alarm_3s_3ms.hex` | 3 ms | 3 s |
+| `fake_alarm_3s_5ms.hex` | 5 ms | 3 s |
+| `fake_alarm_5s_3ms.hex` | 3 ms | 5 s |
 
 Empfohlen: **`fake_alarm_3ms_5s.hex`** — guter Kompromiss aus Sichtbarkeit, Stromverbrauch und realistischem Verhalten.
 
