@@ -110,7 +110,7 @@ Eingabeaufforderung im Verzeichnis mit der `.hex`-Datei öffnen:
 avrdude -c usbasp -p t13 -U flash:w:fake_alarm_3ms_5s.hex:i
 ```
 
-## Fuses setzen (nur einmal nötig)
+## Fuses setzen (nur nötig wenn sie abweichen, standardmäßig sollte es schon passen!)
 
 ```cmd
 avrdude -c usbasp -p t13 -U lfuse:w:0x6B:m -U hfuse:w:0xFF:m
@@ -118,7 +118,7 @@ avrdude -c usbasp -p t13 -U lfuse:w:0x6B:m -U hfuse:w:0xFF:m
 
 | Fuse | Wert | Bedeutung |
 |---|---|---|
-| `lfuse` | `0x6B` | Int. RC 9.6 MHz, CKDIV8 aktiv → 1,2 MHz Takt |
+| `lfuse` | `0x6A` | Int. RC 9.6 MHz, CKDIV8 aktiv → 1,2 MHz Takt |
 | `hfuse` | `0xFF` | BOD aus, RSTDISBL aus, SPIEN aktiv |
 
 > **Wichtig:** BOD muss aus sein — sonst zieht der Chip allein dafür ~20 µA und die Batterie hält keine drei Monate.
